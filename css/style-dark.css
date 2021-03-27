@@ -1,6 +1,9 @@
-body {
-    background-color: gainsboro;
-    color: black;
+ 
+
+
+ body {
+    background-color: #333;
+    color: #f4f4f4;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 25%;
@@ -18,8 +21,8 @@ table, th, td {
   }
 
   header { 
-      background-color: steelblue;
-      color: whitesmoke;
+      background-color: darkblue;
+      color: silver;
       text-align: center;
       font-size: 45px;
       font-weight: bold;
@@ -29,8 +32,8 @@ table, th, td {
   }
 
   footer {
-    background-color: steelblue;
-    color: whitesmoke;
+    background-color: darkblue;
+    color: silver;
     text-align: center;
     font-size: 10px;
     font-weight: bold;
@@ -39,9 +42,11 @@ table, th, td {
   }
 
   img {
-    width:  75%;
-    height: 75%;
+    filter: brightness(.8) contrast(1.2);
+    width:  50%;
+    height: 50%;
  }
- h5 {
-     font-style: italic, bold;
- }
+ 
+  h5 {
+    font-style: italic, bold;
+}
